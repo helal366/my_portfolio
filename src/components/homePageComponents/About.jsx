@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section className='grid md:grid-cols-[50%_50%] section'>
             <div className='px-5 py-10 flex justify-center md:order-2 '>
-                <img className='max-w-[80%] max-h-[300px] border border-yellow-300/50 shadow-xl shadow-gray-300 rounded-lg' src="https://i.postimg.cc/Z5zDgFNb/7-removebg-preview.png" alt="My Picture" />
+                <img className='max-w-[80%] max-h-[300px]  rounded-lg' src="https://i.postimg.cc/Z5zDgFNb/7-removebg-preview.png" alt="My Picture" />
             </div>
 
             <div className='text-center px-5 md:py-10 md:order-1'>
