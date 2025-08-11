@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Portfolio Website",
+    "image": "/images/portfolio.png",
+    "techStack": ["React", "Tailwind CSS", "Framer Motion", "Vercel"],
+    "description": "A fully responsive personal portfolio showcasing my skills, projects, and contact information with smooth animations and modern UI.",
+    "liveLink": "https://yourportfolio.vercel.app",
+    "githubLink": "https://github.com/username/portfolio-client",
+    "challenges": "Ensuring pixel-perfect responsiveness across all devices and optimizing image loading for performance.",
+    "futurePlans": "Add a blog section with a CMS and implement dark/light theme toggle."
+  },
+  {
+    "name": "E-Commerce Store",
+    "image": "/images/ecommerce.png",
+    "techStack": ["React", "Redux", "Express.js", "MongoDB", "Stripe API"],
+    "description": "A feature-rich e-commerce store with product search, cart, authentication, and payment gateway integration.",
+    "liveLink": "https://yourecommerce.vercel.app",
+    "githubLink": "https://github.com/username/ecommerce-client",
+    "challenges": "Integrating Stripe payment securely and managing complex state with Redux.",
+    "futurePlans": "Implement wishlist functionality, product reviews, and admin dashboard."
+  },
+  {
+    "name": "Task Management App",
+    "image": "/images/taskmanager.png",
+    "techStack": ["React", "Firebase Auth", "Firestore", "Tailwind CSS"],
+    "description": "A task management app for organizing daily activities with authentication and real-time database updates.",
+    "liveLink": "https://yourtaskapp.vercel.app",
+    "githubLink": "https://github.com/username/task-manager-client",
+    "challenges": "Implementing real-time data sync with Firestore and optimizing authentication flow.",
+    "futurePlans": "Add team collaboration features and calendar integration."
+  }
+]
