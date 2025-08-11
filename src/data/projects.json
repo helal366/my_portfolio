@@ -1,31 +1,34 @@
 [
   {
-    "name": "Portfolio Website",
-    "image": "/images/portfolio.png",
-    "techStack": ["React", "Tailwind CSS", "Framer Motion", "Vercel"],
-    "description": "A fully responsive personal portfolio showcasing my skills, projects, and contact information with smooth animations and modern UI.",
-    "liveLink": "https://yourportfolio.vercel.app",
-    "githubLink": "https://github.com/username/portfolio-client",
+    "id": 12345,
+    "name": "flexora",
+    "image": "https://i.postimg.cc/CKyPscLH/flexora.png",
+    "techStack": ["React", "MongoDB", "Express.js", "Tailwind CSS", "Framer Motion", "Vercel", "Stripe API"],
+    "description": "flexora is a digital platform built to bridge the gap between surplus food providers (like restaurants) and charities. The platform streamlines food donation, reduces waste, and helps combat hunger by ensuring food reaches those who need it most.",
+    "liveLink": "https://flexora-188f4.web.app/",
+    "githubLink": "https://github.com/helal366/flexora_client",
     "challenges": "Ensuring pixel-perfect responsiveness across all devices and optimizing image loading for performance.",
-    "futurePlans": "Add a blog section with a CMS and implement dark/light theme toggle."
+    "futurePlans": "Add a blog section with a CMS."
   },
   {
-    "name": "E-Commerce Store",
-    "image": "/images/ecommerce.png",
-    "techStack": ["React", "Redux", "Express.js", "MongoDB", "Stripe API"],
-    "description": "A feature-rich e-commerce store with product search, cart, authentication, and payment gateway integration.",
-    "liveLink": "https://yourecommerce.vercel.app",
-    "githubLink": "https://github.com/username/ecommerce-client",
+    "id":12346,
+    "name": "mindHive",
+    "image": "https://i.postimg.cc/7h6rrKzJ/mindHive.png",
+    "techStack": ["React", "Redux", "Express.js", "MongoDB", "Tailwind CSS" ],
+    "description": "mindHive is a digital platform where students can -Share their thoughts and knowledge through articles. -Discover and read articles posted by others. -Participate in discussions through comments. -Like and appreciate valuable content. -Connect through academic interests and categories.",
+    "liveLink": "https://mind-hive-9313b.web.app/",
+    "githubLink": "https://github.com/helal366/mindHive_client",
     "challenges": "Integrating Stripe payment securely and managing complex state with Redux.",
-    "futurePlans": "Implement wishlist functionality, product reviews, and admin dashboard."
+    "futurePlans": "Implement wishlist functionality, articles reviews, and admin dashboard."
   },
   {
-    "name": "Task Management App",
-    "image": "/images/taskmanager.png",
-    "techStack": ["React", "Firebase Auth", "Firestore", "Tailwind CSS"],
-    "description": "A task management app for organizing daily activities with authentication and real-time database updates.",
-    "liveLink": "https://yourtaskapp.vercel.app",
-    "githubLink": "https://github.com/username/task-manager-client",
+    "id":12347,
+    "name": "tastyNaste",
+    "image": "https://i.postimg.cc/sgnnt3cm/tasty-Naste.png",
+    "techStack": ["React", "Express.js", "MongoDB", "Tailwind CSS" ],
+    "description": "tastyNest is a modern, responsive web application focused on delivering a delightful food experience online. Whether you want to explore new recipes, order tasty meals, or share your food adventures, tastyNest is your go-to platform!",
+    "liveLink": "https://client-tastynest.web.app/",
+    "githubLink": "https://github.com/helal366/tastyNest_client",
     "challenges": "Implementing real-time data sync with Firestore and optimizing authentication flow.",
     "futurePlans": "Add team collaboration features and calendar integration."
   }
