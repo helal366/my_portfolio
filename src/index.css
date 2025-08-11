@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+@tailwind utilities;
+body{
+     font-family: "Roboto", sans-serif;
+}
+.padding{
+  @apply px-4 sm:px-8 md:px-12 lg:px-20 xl:px-28 2xl:px-36;
+}
+.buttonOne{
+  @apply bg-teal-300 hover:bg-teal-600 hover:text-gray-50
+}
