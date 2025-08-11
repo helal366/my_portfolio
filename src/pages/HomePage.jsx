@@ -2,6 +2,7 @@ import React from 'react';
 import About from '../components/homePageComponents/About';
 import Skills from '../components/homePageComponents/Skills';
 import EducationalQualification from '../components/homePageComponents/EducationalQualification';
+import Projects from '../components/homePageComponents/Projects';
 
 const HomePage = () => {
     return (
@@ -12,6 +13,9 @@ const HomePage = () => {
             </section>
             <section className='mt-10'>
                <EducationalQualification/>
+            </section>
+            <section className='mt-10'>
+               <Projects/>
             </section>
         </section>
     );
