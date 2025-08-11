@@ -2,12 +2,12 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <section class="bg-[#1f2632] text-white py-10">
+        <section class="bg-[#1f2632] text-white py-10 shadow-md shadow-white">
             <h2 class="text-3xl font-bold text-center mb-8">Skills</h2>
 
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center">
 
-              {/* html5 */}
+                {/* html5 */}
                 <div class="flex flex-col items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#E34F26" viewBox="0 0 24 24">
                         <path d="M1.5 0h21l-1.91 21.563L12 24l-8.09-2.437L1.5 0zM17.13 7.5l.237-2.637H6.633l.487 5.45h7.58l-.293 3.187-2.407.662-2.425-.668-.153-1.71H6.78l.27 3.09 4.95 1.41 4.92-1.41.68-7.274H9.265l-.233-2.6h8.098z" />
@@ -15,7 +15,7 @@ const Skills = () => {
                     <span class="mt-2">HTML5</span>
                 </div>
 
-          {/* css3 */}
+                {/* css3 */}
                 <div class="flex flex-col items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#1572B6" viewBox="0 0 24 24">
                         <path d="M1.5 0h21l-1.91 21.563L12 24l-8.09-2.437L1.5 0zM17.13 7.5l.237-2.637H6.633l.487 5.45h7.58l-.293 3.187-2.407.662-2.425-.668-.153-1.71H6.78l.27 3.09 4.95 1.41 4.92-1.41.68-7.274H9.265l-.233-2.6h8.098z" />
@@ -23,59 +23,58 @@ const Skills = () => {
                     <span class="mt-2">CSS3</span>
                 </div>
 
-       {/* tailwind */}
+                {/* tailwind */}
                 <div class="flex flex-col items-center">
-                    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" class="w-12 h-12"/>
-                        <span class="mt-2">Tailwind</span>
+                    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" class="w-12 h-12" />
+                    <span class="mt-2">Tailwind</span>
                 </div>
 
-             {/* javascript */}
+                {/* javascript */}
                 <div class="flex flex-col items-center">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-12 h-12" alt="JavaScript"/>
-                        <span class="mt-2">JavaScript</span>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-12 h-12" alt="JavaScript" />
+                    <span class="mt-2">JavaScript</span>
                 </div>
 
                 {/* react */}
                 <div class="flex flex-col items-center">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="w-12 h-12" alt="React"/>
-                        <span class="mt-2">React</span>
+                    <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" class="w-12 h-12" alt="React" />
+                    <span class="mt-2">React</span>
                 </div>
-
                 {/* react router */}
                 <div class="flex flex-col items-center">
-                    <img src="https://cdn.worldvectorlogo.com/logos/react-router.svg" class="w-12 h-12" alt="React Router"/>
-                        <span class="mt-2">React Router</span>
+                    <img src="https://i.postimg.cc/VLRBm3ZV/react-router.png" class="w-12 h-12" alt="React Router" />
+                    <span class="mt-2">React Router</span>
                 </div>
 
-            {/* redux */}
+                {/* redux */}
                 <div class="flex flex-col items-center">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" class="w-12 h-12" alt="Redux"/>
-                        <span class="mt-2">Redux</span>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" class="w-12 h-12" alt="Redux" />
+                    <span class="mt-2">Redux</span>
                 </div>
 
                 {/* mongodb */}
                 <div class="flex flex-col items-center">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="w-12 h-12" alt="MongoDB"/>
-                        <span class="mt-2">MongoDB</span>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="w-12 h-12" alt="MongoDB" />
+                    <span class="mt-2">MongoDB</span>
                 </div>
 
                 {/* express js */}
                 <div class="flex flex-col items-center">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" class="w-12 h-12" alt="Express.js"/>
-                        <span class="mt-2">Express.js</span>
+                    <img src="https://i.postimg.cc/5NC5FXtD/express-js.png" class="w-12 h-12" alt="Express.js" />
+                    <span class="mt-2">Express.js</span>
                 </div>
 
-             {/* firebase */}
+                {/* firebase */}
                 <div class="flex flex-col items-center">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" class="w-12 h-12" alt="Firebase"/>
-                        <span class="mt-2">Firebase</span>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" class="w-12 h-12" alt="Firebase" />
+                    <span class="mt-2">Firebase</span>
                 </div>
 
                 {/* vercel */}
-                <div class="flex flex-col items-center">
-                    <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" class="w-12 h-12" alt="Vercel"/>
-                        <span class="mt-2">Vercel</span>
-                </div>
+                {/* <div class="flex flex-col items-center">
+                    <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" class="w-12 h-12" alt="Vercel" />
+                    <span class="mt-2">Vercel</span>
+                </div> */}
             </div>
         </section>
 
