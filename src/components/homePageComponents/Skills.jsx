@@ -28,9 +28,7 @@ const Skills = () => {
 
                 {/* css3 */}
                 <div class="skillCard">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#1572B6" viewBox="0 0 24 24">
-                        <path d="M1.5 0h21l-1.91 21.563L12 24l-8.09-2.437L1.5 0zM17.13 7.5l.237-2.637H6.633l.487 5.45h7.58l-.293 3.187-2.407.662-2.425-.668-.153-1.71H6.78l.27 3.09 4.95 1.41 4.92-1.41.68-7.274H9.265l-.233-2.6h8.098z" />
-                    </svg>
+                    <img src="https://i.postimg.cc/v8vDh549/css.jpg" alt=" CSS 3" class="w-12 h-12" />
                     <span class="mt-2">CSS3</span>
                 </div>
 
