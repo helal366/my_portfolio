@@ -18,3 +18,6 @@ body{
 .section{
   @apply bg-[#1f2632] text-[#f6eee3] shadow-lg shadow-white rounded-md
 }
+.skillCard{
+  @apply flex flex-col items-center bg-[#1e1b4b] p-4 rounded-md shadow-lg shadow-gray-400
+}
