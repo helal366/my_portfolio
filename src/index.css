@@ -15,3 +15,6 @@ body{
 .social{
   @apply hover:scale-120 transition transform duration-300
 }
+.section{
+  @apply bg-[#1f2632] text-[#f6eee3] shadow-lg shadow-white rounded-md
+}

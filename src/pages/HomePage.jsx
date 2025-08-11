@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../components/homePageComponents/About';
 import Skills from '../components/homePageComponents/Skills';
+import EducationalQualification from '../components/homePageComponents/EducationalQualification';
 
 const HomePage = () => {
     return (
@@ -8,6 +9,9 @@ const HomePage = () => {
             <About />
             <section className='mt-10'>
                 <Skills />
+            </section>
+            <section className='mt-10'>
+               <EducationalQualification/>
             </section>
         </section>
     );
