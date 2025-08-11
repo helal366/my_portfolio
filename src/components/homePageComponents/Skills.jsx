@@ -16,7 +16,7 @@ const Skills = () => {
                 </p>
             </section>
 
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-center">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-center px-5">
 
                 {/* html5 */}
                 <div class="skillCard">
