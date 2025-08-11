@@ -4,10 +4,14 @@
 @tailwind utilities;
 body{
      font-family: "Roboto", sans-serif;
+     color: white;
 }
 .padding{
   @apply px-4 sm:px-8 md:px-12 lg:px-20 xl:px-28 2xl:px-36;
 }
 .buttonOne{
-  @apply bg-teal-300 hover:bg-teal-600 hover:text-gray-50
+  @apply bg-gray-300 hover:bg-gray-400 text-gray-950
+}
+.social{
+  @apply hover:scale-120 transition transform duration-300
 }

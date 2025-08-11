@@ -3,7 +3,7 @@ import About from '../components/homePageComponents/About';
 
 const HomePage = () => {
     return (
-        <section className='bg-teal-100/50 min-h-screen pt-10 padding'>
+        <section className='bg-[#2b3442] min-h-screen pt-10 padding'>
             <About/>
         </section>
     );

@@ -3,7 +3,7 @@ import NavbarLinks from './NavbarLinks';
 
 const Navbar = () => {
     return (
-        <section className="navbar bg-teal-300/30 shadow-xl padding border-b border-gray-300/50">
+        <section className="navbar bg-[#1f2632] padding border-b border-gray-300/50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
