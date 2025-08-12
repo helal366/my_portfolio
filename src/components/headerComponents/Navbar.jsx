@@ -1,5 +1,6 @@
 import React from 'react';
 import NavbarLinks from './NavbarLinks';
+import { FaDownload } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
@@ -29,7 +30,10 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn buttonOne">Resume</a>
+                <button className="btn buttonOne flex items-center gap-2 mb-10 md:mb-0">
+                    <FaDownload className="w-5 h-5" />
+                    Download Resume
+                </button>
             </div>
         </section>
     );

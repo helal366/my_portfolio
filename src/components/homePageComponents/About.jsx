@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaDownload, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const About = () => {
     return (
@@ -59,9 +59,15 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <button className='btn buttonOne mb-10 md:mb-0'>
+                {/* <button className='btn buttonOne mb-10 md:mb-0'>
                     Resume
-                </button>
+                </button> */}
+                <div className='w-full flex justify-center'>
+                    <button className="btn buttonOne flex items-center gap-2 mb-10 md:mb-0">
+                        <FaDownload className="w-5 h-5" />
+                        Download Resume
+                    </button>
+                </div>
             </div>
 
 
