@@ -54,7 +54,7 @@ const Contacts = () => {
                     <span className="font-medium">Email</span>
                 </a>
 
-                <a
+                {/* <a
                     href="https://www.linkedin.com/in/helal-sarker/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -62,9 +62,9 @@ const Contacts = () => {
                 >
                     <FaLinkedin className="w-6 h-6" />
                     <span className="font-medium">LinkedIn</span>
-                </a>
+                </a> */}
 
-                <a
+                {/* <a
                     href="https://github.com/helal366"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -72,9 +72,9 @@ const Contacts = () => {
                 >
                     <FaGithub className="w-6 h-6" />
                     <span className="font-medium">GitHub</span>
-                </a>
+                </a> */}
 
-                <a
+                {/* <a
                     href="https://x.com/Helal568768"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -82,7 +82,7 @@ const Contacts = () => {
                 >
                     <FaTwitter className="w-6 h-6" />
                     <span className="font-medium">Twitter</span>
-                </a>
+                </a> */}
             </div>
         </section>
     );
