@@ -11,7 +11,7 @@ const Contacts = () => {
                 <h2 className="text-2xl font-semibold">Contact Information</h2>
             </div>
 
-            <div className="flex flex-col sm:flex-row sm:items-center gap-6">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-6 flex-wrap">
                 <a
                     href="https://wa.me/8801786112996"
                     target="_blank"
