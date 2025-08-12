@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaEnvelope, FaGraduationCap, FaWhatsapp, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { MdContacts, MdEmail } from "react-icons/md";
 
 
 const Contacts = () => {
@@ -12,6 +12,10 @@ const Contacts = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row sm:items-center gap-6 flex-wrap">
+                <div className="flex items-center gap-3 mb-4">
+                    <MdContacts className="w-8 h-8 text-blue-500" />
+                    <h2 className="text-2xl font-semibold">Contact</h2>
+                </div>
                 <a
                     href="https://wa.me/8801786112996"
                     target="_blank"
