@@ -4,6 +4,7 @@ import Skills from '../components/homePageComponents/Skills';
 import EducationalQualification from '../components/homePageComponents/EducationalQualification';
 import Projects from '../components/homePageComponents/Projects';
 import Contacts from '../components/homePageComponents/Contacts';
+import AboutMe from '../components/homePageComponents/AboutMe';
 
 const HomePage = () => {
     return (
@@ -15,12 +16,16 @@ const HomePage = () => {
             <section id='education' className='mt-10'>
                <EducationalQualification/>
             </section>
+            <section  className='mt-10'>
+               <AboutMe/>
+            </section>
             <section id='projects' className='mt-10'>
                <Projects/>
             </section>
             <section id='contacts' className='mt-10'>
                <Contacts/>
             </section>
+            
         </section>
     );
 };

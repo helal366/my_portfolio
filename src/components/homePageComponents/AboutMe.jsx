@@ -3,9 +3,9 @@ import { FaLaptopCode, FaHeart, FaPalette, FaRunning, FaUserCircle } from 'react
 
 const AboutMe = () => {
   return (
-    <section className="bg-white rounded-lg shadow-md p-8 max-w-4xl mx-auto my-10">
-      <h2 className="flex items-center gap-3 text-3xl font-bold mb-6 text-purple-700">
-        <FaUserCircle className="w-8 h-8" />
+    <section className="section">
+      <h2 className="flex items-center gap-3 text-3xl font-bold mb-6">
+        <FaUserCircle className="w-8 h-8 text-purple-700" />
         About Me
       </h2>
 
