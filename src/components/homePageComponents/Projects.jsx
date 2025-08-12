@@ -21,7 +21,6 @@ const Projects = () => {
 
             <section className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {projects.map((project) => (
-                    <>
                         <div key={project.id} className="card bg-base-100 shadow-sm text-gray-950">
                             <figure>
                                 <img
@@ -36,8 +35,7 @@ const Projects = () => {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
-                    </>
+                        </div>                
                 ))}
 
             </section>
