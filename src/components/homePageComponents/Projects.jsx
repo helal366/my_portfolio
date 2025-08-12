@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaBriefcase } from "react-icons/fa";
+import { Link } from 'react-router';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -30,7 +31,9 @@ const Projects = () => {
                             <div className="card-body">
                                 <h2 className="card-title">{project.name}</h2>
                                 <div className="card-actions justify-end">
-                                    <button className="btn buttonOne">Details</button>
+                                    <Link to={`/project/${project.id}`}>
+                                        <button className="btn buttonOne">Details</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
