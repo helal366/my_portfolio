@@ -1,15 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const NavbarLinks = () => {
     return (
         <>
-            <li><a>Home</a></li>
+            <li><Link to='/'>Home</Link></li>
             <li>
-                <a>About</a>
+                <a href='#about'>About</a>
             </li>
-            <li><a>Skills</a></li>
-            <li><a>Education</a></li>
-            <li><a>Projects</a></li>
+            <li><a href='skills'>Skills</a></li>
+            <li><a href='#education'>Education</a></li>
+            <li><a href='#projects'>Projects</a></li>
             <li><a>Contacts</a></li>
         </>
     );

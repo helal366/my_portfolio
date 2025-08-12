@@ -6,15 +6,15 @@ import Projects from '../components/homePageComponents/Projects';
 
 const HomePage = () => {
     return (
-        <section className='bg-teal-200/50 min-h-screen pt-10 padding pb-52'>
+        <section id='about' className='bg-teal-200/50 min-h-screen pt-10 padding pb-52'>
             <About />
-            <section className='mt-10'>
+            <section id='skills' className='mt-10'>
                 <Skills />
             </section>
-            <section className='mt-10'>
+            <section id='education' className='mt-10'>
                <EducationalQualification/>
             </section>
-            <section className='mt-10'>
+            <section id='projects' className='mt-10'>
                <Projects/>
             </section>
         </section>
