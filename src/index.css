@@ -16,8 +16,11 @@ body{
   @apply hover:scale-120 transition transform duration-300
 }
 .section{
-  @apply bg-teal-300/50 shadow-lg shadow-white rounded-md
+  @apply bg-teal-300/30 shadow-lg shadow-white rounded-md px-5 py-10
 }
 .skillCard{
   @apply flex flex-col items-center bg-[#1e1b4b] text-white p-4 rounded-md shadow-lg shadow-gray-400
+}
+.contactCss{
+  @apply border border-purple-600 p-2 rounded-md flex items-center gap-2 hover:scale-105 transition-transform
 }

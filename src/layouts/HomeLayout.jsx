@@ -5,8 +5,10 @@ import Navbar from '../components/headerComponents/Navbar';
 const HomeLayout = () => {
     return (
         <section>
-            <Navbar/>
-           <Outlet/>
+            <section className='sticky top-0 bg-white z-50'>
+                <Navbar />
+            </section>
+            <Outlet />
         </section>
     );
 };
