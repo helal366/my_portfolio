@@ -23,7 +23,7 @@ const Contacts = () => {
             <div className="flex flex-col sm:flex-row sm:items-center gap-6 flex-wrap">
                 <a
                     href={`tel:${phoneNumber}`}
-                    className="contactCss text-green-500 flex items-center gap-2 cursor-pointer"
+                    className="contactCss text-green-700 flex items-center gap-2 cursor-pointer"
                     onClick={(e) => {
                         // For desktop fallback, prevent default and copy number
                         if (!navigator.userAgent.match(/Mobi|Android/i)) {
@@ -34,7 +34,7 @@ const Contacts = () => {
                     title="Click to call or copy number"
                 >
                     <FaPhoneAlt className="w-6 h-6" />
-                    <span className={`font-medium ${copied? 'text-red-600': ''}`}>{copied ? 'Copied!' : 'Contact'}</span>
+                    <span className={`font-medium ${copied ? 'text-red-600' : ''}`}>{copied ? 'Copied!' : 'Contact'}</span>
                 </a>
                 <a
                     href="https://wa.me/8801786112996"
@@ -83,6 +83,19 @@ const Contacts = () => {
                     <FaTwitter className="w-6 h-6" />
                     <span className="font-medium">Twitter</span>
                 </a> */}
+            </div>
+
+            <div className='mt-8 flex flex-col gap-3'>
+                <div>
+                    <span className="font-medium text-green-700">Contact: </span> <span>+8801786112996</span>
+                </div>
+                <div>
+                    <span className="font-medium text-teal-[#075E54]">WhatsApp: </span> <span>+8801786112996</span>
+                </div>
+
+                <div>
+                    <span className="font-medium text-red-600">Email: </span> <span>helal56876@gmail.com</span>
+                </div>
             </div>
         </section>
     );
