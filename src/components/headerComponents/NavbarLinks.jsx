@@ -11,7 +11,7 @@ const NavbarLinks = () => {
             <li><a href='skills'>Skills</a></li>
             <li><a href='#education'>Education</a></li>
             <li><a href='#projects'>Projects</a></li>
-            <li><a>Contacts</a></li>
+            <li><a href='#contacts'>Contacts</a></li>
         </>
     );
 };
