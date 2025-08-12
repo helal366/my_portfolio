@@ -14,7 +14,7 @@ const Contacts = () => {
         setTimeout(() => setCopied(false), 2000);
     };
     return (
-        <section className='section'>
+        <section data-aos="fade-up" data-aos-duration="2000" className='section'>
             <div className="flex items-center gap-3 mb-4">
                 <FaEnvelope className="w-8 h-8 text-purple-500" />
                 <h2 className="text-2xl font-semibold">Contact Information</h2>

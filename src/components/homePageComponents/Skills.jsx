@@ -3,7 +3,7 @@ import { FaCode } from "react-icons/fa";
 
 const Skills = () => {
     return (
-        <section className="section grid md:grid-cols-[50%_50%] gap-5">
+        <section data-aos="fade-up" data-aos-duration="2000" className="section grid md:grid-cols-[50%_50%] gap-5">
             <section className='mb-6'>
                 <h2 className="flex items-center gap-3 text-2xl font-semibold mb-8">
                     <FaCode className="text-purple-500 w-6 h-6" />

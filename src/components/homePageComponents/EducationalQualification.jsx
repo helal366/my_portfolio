@@ -3,7 +3,7 @@ import { FaGraduationCap } from "react-icons/fa";
 
 const EducationalQualification = () => {
   return (
-    <section className="section">
+    <section data-aos="fade-up" data-aos-duration="2000" className="section">
       <div className="flex items-center gap-3 mb-4">
         <FaGraduationCap className="w-8 h-8 text-purple-500" />
         <h2 className="text-2xl font-semibold">Educational Qualification</h2>

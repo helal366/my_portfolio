@@ -11,7 +11,7 @@ const Projects = () => {
             .catch((err) => console.error("Failed to fetch projects:", err))
     }, [])
     return (
-        <section className='section'>
+        <section data-aos="fade-up" data-aos-duration="2000" className='section'>
             <div >
                 <h2 className="flex items-center gap-3 text-2xl font-semibold mb-8">
                     <FaBriefcase className="text-purple-500 w-6 h-6" />

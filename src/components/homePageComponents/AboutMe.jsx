@@ -3,7 +3,7 @@ import { FaLaptopCode, FaHeart, FaPalette, FaRunning, FaUserCircle } from 'react
 
 const AboutMe = () => {
   return (
-    <section className="section">
+    <section data-aos="fade-up" data-aos-duration="2000" className="section">
       <h2 className="flex items-center gap-3 text-3xl font-bold mb-6">
         <FaUserCircle className="w-8 h-8 text-purple-700" />
         About Me
