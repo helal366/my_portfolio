@@ -6,7 +6,7 @@ const Skills = () => {
         <section className=" py-10 section px-5 grid md:grid-cols-[50%_50%] gap-5">
             <section className='mb-6'>
                 <h2 className="flex items-center gap-3 text-2xl font-semibold mb-8">
-                    <FaCode className="text-yellow-400 w-6 h-6" />
+                    <FaCode className="text-purple-500 w-6 h-6" />
                     Development Skills
                 </h2>
                 <p>As a MERN stack developer specializing in frontend development with a strong understanding

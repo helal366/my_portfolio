@@ -5,7 +5,7 @@ const EducationalQualification = () => {
     return (
         <section className="section p-8">
       <div className="flex items-center gap-3 mb-4">
-        <FaGraduationCap className="w-8 h-8 text-yellow-400" />
+        <FaGraduationCap className="w-8 h-8 text-purple-500" />
         <h2 className="text-2xl font-semibold">Educational Qualification</h2>
       </div>
       <div className="pl-2">

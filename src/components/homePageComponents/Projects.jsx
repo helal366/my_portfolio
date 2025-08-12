@@ -14,7 +14,7 @@ const Projects = () => {
         <section className='section px-5 py-10'>
             <section >
                 <h2 className="flex items-center gap-3 text-2xl font-semibold mb-8">
-                    <FaBriefcase className="text-yellow-400 w-6 h-6" />
+                    <FaBriefcase className="text-purple-500 w-6 h-6" />
                     Projects
                 </h2>
             </section>

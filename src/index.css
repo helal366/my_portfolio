@@ -4,7 +4,7 @@
 @tailwind utilities;
 body{
      font-family: "Roboto", sans-serif;
-     color: white;
+     color: black;
 }
 .padding{
   @apply px-4 sm:px-8 md:px-12 lg:px-20 xl:px-28 2xl:px-36;
@@ -16,8 +16,8 @@ body{
   @apply hover:scale-120 transition transform duration-300
 }
 .section{
-  @apply bg-[#1f2632] text-[#f6eee3] shadow-lg shadow-white rounded-md
+  @apply bg-teal-300/50 shadow-lg shadow-white rounded-md
 }
 .skillCard{
-  @apply flex flex-col items-center bg-[#1e1b4b] p-4 rounded-md shadow-lg shadow-gray-400
+  @apply flex flex-col items-center bg-[#1e1b4b] text-white p-4 rounded-md shadow-lg shadow-gray-400
 }

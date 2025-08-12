@@ -6,7 +6,7 @@ import Projects from '../components/homePageComponents/Projects';
 
 const HomePage = () => {
     return (
-        <section className='bg-[#2b3442] min-h-screen pt-10 padding pb-52'>
+        <section className='bg-teal-200/50 min-h-screen pt-10 padding pb-52'>
             <About />
             <section className='mt-10'>
                 <Skills />
