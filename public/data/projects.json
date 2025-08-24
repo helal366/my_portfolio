@@ -2,7 +2,7 @@
   {
     "id": 12345,
     "name": "flexora",
-    "image": "https://i.postimg.cc/CKyPscLH/flexora.png",
+    "image": "https://i.postimg.cc/tRstZmtm/flexora.png",
     "techStack": ["React", "MongoDB", "Express.js", "Tailwind CSS", "Framer Motion", "Vercel", "Stripe API"],
     "description": "flexora is a digital platform built to bridge the gap between surplus food providers (like restaurants) and charities. The platform streamlines food donation, reduces waste, and helps combat hunger by ensuring food reaches those who need it most.",
     "liveLink": "https://flexora-188f4.web.app/",
