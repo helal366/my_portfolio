@@ -8,7 +8,8 @@ import AboutMe from '../components/homePageComponents/AboutMe';
 
 const HomePage = () => {
     return (
-        <section id='about' className='bg-green-200/50 min-h-screen pt-10 padding pb-52'>
+        <section className='bg-green-200/50 min-h-screen pt-10 padding pb-52'>
+
             <About />
             <section id='skills' className='mt-10'>
                 <Skills />
