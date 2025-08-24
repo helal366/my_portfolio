@@ -5,7 +5,7 @@ import { FaDownload } from 'react-icons/fa';
 const Navbar = () => {
     const resume_file=`https://drive.google.com/uc?export=download&id=${import.meta.env.VITE_RESUME_FILE_ID}`
     return (
-        <section className="navbar bg-green-300/50 padding border-b border-purple-300/50 ">
+        <section className="navbar bg-green-300/50 padding border-b-2 border-purple-300/40 ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
