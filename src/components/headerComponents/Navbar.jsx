@@ -3,6 +3,7 @@ import NavbarLinks from './NavbarLinks';
 import { FaDownload } from 'react-icons/fa';
 
 const Navbar = () => {
+    const resume_file=`https://drive.google.com/uc?export=download&id=${import.meta.env.VITE_RESUME_FILE_ID}`
     return (
         <section className="navbar bg-green-300/50 padding border-b border-purple-300/50 ">
             <div className="navbar-start">
@@ -30,10 +31,16 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="btn buttonOne flex items-center gap-2 mb-10 md:mb-0">
+                <a
+                    href={resume_file}
+                    download="Resume_of_Helal.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn buttonOne flex items-center gap-2 mb-10 md:mb-0"
+                >
                     <FaDownload className="w-5 h-5" />
                     Download Resume
-                </button>
+                </a>
             </div>
         </section>
     );

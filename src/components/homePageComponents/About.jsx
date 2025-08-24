@@ -2,6 +2,7 @@ import React from 'react';
 import { FaDownload, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const About = () => {
+    const resume_file=`https://drive.google.com/uc?export=download&id=${import.meta.env.VITE_RESUME_FILE_ID}`
     return (
         <section className='grid md:grid-cols-[50%_50%] section'>
             <div className='px-5 py-10 flex justify-center md:order-2 '>
@@ -59,12 +60,19 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className='w-full flex justify-center'>
-                    <button className="btn buttonOne flex items-center gap-2 mb-10 md:mb-0">
+                    <a
+                        href={resume_file}
+                        download="Resume_of_Helal.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn buttonOne flex items-center gap-2 mb-10 md:mb-0"
+                    >
                         <FaDownload className="w-5 h-5" />
                         Download Resume
-                    </button>
+                    </a>
+
                 </div>
             </div>
 
