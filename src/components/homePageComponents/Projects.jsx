@@ -21,7 +21,7 @@ const Projects = () => {
 
             <section className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {projects.map((project) => (
-                        <div key={project.id} className="card bg-base-100 shadow-sm text-gray-950">
+                        <div key={project.id} className="card bg-green-50 shadow-sm text-gray-950">
                             <figure>
                                 <img 
                                     className='h-52 w-full border border-gray-500/50 rounded-t-lg'
@@ -29,10 +29,10 @@ const Projects = () => {
                                     alt="Shoes" />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title">{project.name}</h2>
+                                <h2 className="card-title text-green-900">{project.name}</h2>
                                 <div className="card-actions justify-end">
                                     <Link to={`/project/${project.id}`}>
-                                        <button className="btn buttonOne">Details</button>
+                                        <button className="btn buttonTwo">Details</button>
                                     </Link>
                                 </div>
                             </div>
