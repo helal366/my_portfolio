@@ -23,7 +23,8 @@ const Projects = () => {
                 {projects.map((project) => (
                         <div key={project.id} className="card bg-base-100 shadow-sm text-gray-950">
                             <figure>
-                                <img
+                                <img 
+                                    className='h-52 w-full border border-gray-500/50 rounded-t-lg'
                                     src={project.image}
                                     alt="Shoes" />
                             </figure>

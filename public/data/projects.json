@@ -13,7 +13,7 @@
   {
     "id":12346,
     "name": "mindHive",
-    "image": "https://i.postimg.cc/7h6rrKzJ/mindHive.png",
+    "image": "https://i.postimg.cc/25BLjPf4/mindHive.png",
     "techStack": ["React", "Redux", "Express.js", "MongoDB", "Tailwind CSS" ],
     "description": "mindHive is a digital platform where students can -Share their thoughts and knowledge through articles. -Discover and read articles posted by others. -Participate in discussions through comments. -Like and appreciate valuable content. -Connect through academic interests and categories.",
     "liveLink": "https://mind-hive-9313b.web.app/",
