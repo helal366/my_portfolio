@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import About from '../components/homePageComponents/About';
 import Skills from '../components/homePageComponents/Skills';
 import EducationalQualification from '../components/homePageComponents/EducationalQualification';
@@ -7,6 +7,9 @@ import Contacts from '../components/homePageComponents/Contacts';
 import AboutMe from '../components/homePageComponents/AboutMe';
 
 const HomePage = () => {
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[])
     return (
         <section className='bg-green-200/50 min-h-screen pt-10 padding pb-52'>
 

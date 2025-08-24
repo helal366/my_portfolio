@@ -24,3 +24,6 @@ body{
 .contactCss{
   @apply border border-purple-600 p-2 rounded-md flex items-center gap-2 hover:scale-105 transition-transform
 }
+.navLinks{
+  @apply bg-green-300 hover:bg-green-900 text-black hover:text-white mr-2 font-semibold rounded-md border border-gray-500/50
+}
