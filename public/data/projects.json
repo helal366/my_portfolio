@@ -24,7 +24,7 @@
   {
     "id":12347,
     "name": "tastyNaste",
-    "image": "https://i.postimg.cc/sgnnt3cm/tasty-Naste.png",
+    "image": "https://i.postimg.cc/g20L6x3q/tasty-Naste.png",
     "techStack": ["React", "Express.js", "MongoDB", "Tailwind CSS" ],
     "description": "tastyNest is a modern, responsive web application focused on delivering a delightful food experience online. Whether you want to explore new recipes, order tasty meals, or share your food adventures, tastyNest is your go-to platform!",
     "liveLink": "https://client-tastynest.web.app/",
