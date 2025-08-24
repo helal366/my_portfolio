@@ -16,7 +16,7 @@ const HomePage = () => {
             <section id='education' className='mt-10'>
                <EducationalQualification/>
             </section>
-            <section  className='mt-10'>
+            <section id='aboutme'  className='mt-10'>
                <AboutMe/>
             </section>
             <section id='projects' className='mt-10'>

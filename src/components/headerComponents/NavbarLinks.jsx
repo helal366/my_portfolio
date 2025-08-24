@@ -9,6 +9,7 @@ const NavbarLinks = () => {
             <li><a href='#education'>Education</a></li>
             <li><a href='#projects'>Projects</a></li>
             <li><a href='#contacts'>Contacts</a></li>
+            <li><a href='#aboutme'>About Me</a></li>
         </>
     );
 };
