@@ -10,10 +10,10 @@ const About = () => {
 
             <div className='text-center px-5 md:py-10 md:order-1'>
                 <p >Hello, I am</p>
-                <h2 className='text-3xl font-semibold my-4'>
+                <h2 className='text-3xl text-green-800 font-semibold my-4'>
                     Md Al Helal Sarker
                 </h2>
-                <h3 className='text-xl font-semibold mb-4'>
+                <h3 className='text-xl text-green-700 font-semibold mb-4'>
                     MERN Stack Developer
                 </h3>
                 <p className='mb-6'>A passionate MERN-stack web developer specializing in building responsive,
@@ -59,9 +59,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                {/* <button className='btn buttonOne mb-10 md:mb-0'>
-                    Resume
-                </button> */}
+                
                 <div className='w-full flex justify-center'>
                     <button className="btn buttonOne flex items-center gap-2 mb-10 md:mb-0">
                         <FaDownload className="w-5 h-5" />

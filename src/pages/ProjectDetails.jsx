@@ -20,7 +20,7 @@ const ProjectDetails = () => {
     return <div className='text-green-600 font-semibold text-center'>Loading project details...</div>
 }
     return (
-        <section className='padding bg-teal-200/50 min-h-screen py-10 '>
+        <section className='padding bg-green-200/50 min-h-screen py-10 '>
             <div className='w-full mb-10'>
                 <img className='w-full' src={project?.image} alt="" />
             </div>

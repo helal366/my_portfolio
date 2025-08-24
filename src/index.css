@@ -16,7 +16,7 @@ body{
   @apply hover:scale-120 transition transform duration-300
 }
 .section{
-  @apply bg-teal-300/30 shadow-lg shadow-white rounded-md px-5 py-10
+  @apply bg-green-300/30 shadow-lg shadow-white rounded-md px-5 py-10
 }
 .skillCard{
   @apply flex flex-col items-center bg-[#1e1b4b] text-white p-4 rounded-md shadow-lg shadow-gray-400

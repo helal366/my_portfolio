@@ -40,7 +40,7 @@ const Contacts = () => {
                     href="https://wa.me/8801786112996"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="contactCss text-teal-[#075E54]"
+                    className="contactCss text-[#075E54]"
                 >
                     <FaWhatsapp className="w-6 h-6" />
                     <span className="font-medium">WhatsApp</span>
@@ -90,7 +90,7 @@ const Contacts = () => {
                     <span className="font-medium text-green-700">Contact: </span> <span>+8801786112996</span>
                 </div>
                 <div>
-                    <span className="font-medium text-teal-[#075E54]">WhatsApp: </span> <span>+8801786112996</span>
+                    <span className="font-medium text-[#075E54]">WhatsApp: </span> <span>+8801786112996</span>
                 </div>
 
                 <div>

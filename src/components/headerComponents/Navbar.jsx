@@ -4,7 +4,7 @@ import { FaDownload } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
-        <section className="navbar bg-teal-300/50 padding border-b border-purple-300/50 ">
+        <section className="navbar bg-green-300/50 padding border-b border-purple-300/50 ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
