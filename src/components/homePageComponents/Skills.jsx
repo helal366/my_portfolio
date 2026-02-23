@@ -2,10 +2,24 @@ import React from 'react';
 import { FaCode } from "react-icons/fa";
 
 const Skills = () => {
+    // skills.js
+    const skills = [
+        { name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", level: 90 },
+        { name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", level: 85 },
+        { name: "Tailwind CSS", icon: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg", level: 80 },
+        { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", level: 90 },
+        { name: "React", icon: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg", level: 85 },
+        { name: "React Router", icon: "https://i.postimg.cc/VLRBm3ZV/react-router.png", level: 80 },
+        { name: "Redux", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg", level: 75 },
+        { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", level: 80 },
+        { name: "Express.js", icon: "https://i.postimg.cc/5NC5FXtD/express-js.png", level: 75 },
+        { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", level: 75 },
+        { name: "Firebase", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg", level: 70 },
+    ];
     return (
         <section data-aos="fade-up" data-aos-duration="2000" className="section grid md:grid-cols-[50%_50%] gap-5">
             <section className='mb-6'>
-                <h2 className="flex items-center gap-3 text-2xl font-semibold mb-8">
+                <h2 className="flex items-center gap-3 text-2xl md:text-3xl font-semibold mb-8">
                     <FaCode className="text-purple-500 w-6 h-6" />
                     Development Skills
                 </h2>
@@ -15,75 +29,18 @@ const Skills = () => {
                     leveraging modern technologies to deliver robust, full-stack solutions.
                 </p>
             </section>
-
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-center px-5">
+                {skills.map(skill => (
+                    <div key={skill.name} className="skillCard">
+                        <img src={skill.icon} alt={skill.name} className="w-12 h-12 rounded-lg bg-green-200 p-1" />
+                        <span className="mt-2">{skill.name}</span>
+                        <div className="w-full bg-gray-700 rounded-full h-4 flex flex-col justify-center">
+                            <div className={`bg-purple-500  h-2 rounded-full w-[${skill.level}%]`}></div>
+                        </div>
+                            <p className=''>{skill.level}% </p>
 
-                {/* html5 */}
-                <div className="skillCard">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#E34F26" viewBox="0 0 24 24">
-                        <path d="M1.5 0h21l-1.91 21.563L12 24l-8.09-2.437L1.5 0zM17.13 7.5l.237-2.637H6.633l.487 5.45h7.58l-.293 3.187-2.407.662-2.425-.668-.153-1.71H6.78l.27 3.09 4.95 1.41 4.92-1.41.68-7.274H9.265l-.233-2.6h8.098z" />
-                    </svg>
-                    <span className="mt-2">HTML5</span>
-                </div>
-
-                {/* css3 */}
-                <div className="skillCard">
-                    <img src="https://i.postimg.cc/v8vDh549/css.jpg" alt=" CSS 3" className="w-12 h-12" />
-                    <span className="mt-2">CSS3</span>
-                </div>
-
-                {/* tailwind */}
-                <div className="skillCard">
-                    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" className="w-12 h-12" />
-                    <span className="mt-2">Tailwind</span>
-                </div>
-
-                {/* javascript */}
-                <div className="skillCard">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" className="w-12 h-12" alt="JavaScript" />
-                    <span className="mt-2">JavaScript</span>
-                </div>
-
-                {/* react */}
-                <div className="skillCard">
-                    <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" className="w-12 h-12" alt="React" />
-                    <span className="mt-2">React</span>
-                </div>
-                {/* react router */}
-                <div className="skillCard">
-                    <img src="https://i.postimg.cc/VLRBm3ZV/react-router.png" className="w-12 h-12" alt="React Router" />
-                    <span className="mt-2">React Router</span>
-                </div>
-
-                {/* redux */}
-                <div className="skillCard">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" className="w-12 h-12" alt="Redux" />
-                    <span className="mt-2">Redux</span>
-                </div>
-
-                {/* mongodb */}
-                <div className="skillCard">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" className="w-12 h-12" alt="MongoDB" />
-                    <span className="mt-2">MongoDB</span>
-                </div>
-
-                {/* express js */}
-                <div className="skillCard">
-                    <img src="https://i.postimg.cc/5NC5FXtD/express-js.png" className="w-12 h-12" alt="Express.js" />
-                    <span className="mt-2">Express.js</span>
-                </div>
-
-                {/* firebase */}
-                <div className="skillCard">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" className="w-12 h-12" alt="Firebase" />
-                    <span className="mt-2">Firebase</span>
-                </div>
-
-                {/* vercel */}
-                {/* <div class="flex flex-col items-center">
-                    <img src="https://www.svgrepo.com/show/327408/logo-vercel.svg" class="w-12 h-12" alt="Vercel" />
-                    <span class="mt-2">Vercel</span>
-                </div> */}
+                    </div>
+                ))}
             </div>
         </section>
 

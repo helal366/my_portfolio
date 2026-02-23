@@ -17,10 +17,10 @@ const Contacts = () => {
         <section data-aos="fade-up" data-aos-duration="2000" className='section'>
             <div className="flex items-center gap-3 mb-4">
                 <FaEnvelope className="w-8 h-8 text-purple-500" />
-                <h2 className="text-2xl font-semibold">Contact Information</h2>
+                <h2 className="text-3xl font-semibold">Contact Information</h2>
             </div>
 
-            <div className="flex flex-col sm:flex-row sm:items-center gap-6 flex-wrap">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-6 flex-wrap ">
                 <a
                     href={`tel:${phoneNumber}`}
                     className="contactCss text-green-700 flex items-center gap-2 cursor-pointer"
@@ -47,7 +47,7 @@ const Contacts = () => {
                 </a>
 
                 <a
-                    href="mailto:helal56876@gmail.com"
+                    href="mailto:helalskr77@gmail.com"
                     className="contactCss text-red-500"
                 >
                     <MdEmail className="w-6 h-6" />
@@ -94,7 +94,7 @@ const Contacts = () => {
                 </div>
 
                 <div>
-                    <span className="font-medium text-red-600">Email: </span> <span>helal56876@gmail.com</span>
+                    <span className="font-medium text-red-600">Email: </span> <span>helalskr77@gmail.com</span>
                 </div>
             </div>
         </section>

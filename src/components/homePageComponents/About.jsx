@@ -30,7 +30,8 @@ const About = () => {
                                 href="https://www.linkedin.com/in/helal-sarker/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-center gap-2 text-blue-700 hover:scale-105 transition-transform border border-purple-600 p-2 rounded-md"
+                                className="socialLinks text-blue-700"
+                                id='linkedin'
                             >
                                 <FaLinkedin className="w-6 h-6" />
                                 <span className="font-medium">LinkedIn</span>
@@ -41,7 +42,8 @@ const About = () => {
                                 href="https://github.com/helal366"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-center gap-2 text-gray-800 hover:scale-105 transition-transform border border-purple-600 p-2 rounded-md"
+                                className="socialLinks text-gray-800"
+                                id='github'
                             >
                                 <FaGithub className="w-6 h-6" />
                                 <span className="font-medium">GitHub</span>
@@ -52,7 +54,8 @@ const About = () => {
                                 href="https://x.com/Helal568768"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-center gap-2 text-sky-500 hover:scale-105 transition-transform border border-purple-600 p-2 rounded-md"
+                                className="socialLinks text-sky-500"
+                                id='twitter'
                             >
                                 <FaTwitter className="w-6 h-6" />
                                 <span className="font-medium">Twitter</span>

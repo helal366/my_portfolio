@@ -11,7 +11,7 @@ const AboutMe = () => {
           {/* Heading */}
           <div className="flex items-center gap-3 mb-6 justify-center">
             <FaUserTie className="w-6 h-6 text-purple-500" />
-            <h2 className="text-3xl md:text-2xl font-bold text-black">
+            <h2 className="text-2xl md:text-3xl font-bold text-black">
               About Me
             </h2>
           </div>

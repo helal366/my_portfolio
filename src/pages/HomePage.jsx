@@ -11,13 +11,13 @@ const HomePage = () => {
         window.scrollTo(0,0)
     },[])
     return (
-        <section className='bg-green-200/50 min-h-screen pt-10 padding pb-52'>
+        <section className=' min-h-screen pt-10 padding pb-52 bg-green-300/50'>
 
             <About />
             <section id='skills' className='mt-10'>
                 <Skills />
             </section>
-            <section id='education' className='mt-10'>
+            <section id='education' className='mt-10 '>
                <EducationalQualification/>
             </section>
             <section id='aboutme'  className='mt-10'>
