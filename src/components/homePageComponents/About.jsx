@@ -11,10 +11,10 @@ const About = () => {
 
             <div className='text-center px-5 md:py-10 md:order-1'>
                 <p >Hello, I am</p>
-                <h2 className='text-3xl text-green-800 font-semibold my-4'>
+                <h2 className='text-3xl text-gray-800 font-semibold my-4'>
                     Md Al Helal Sarker
                 </h2>
-                <h3 className='text-xl text-green-700 font-semibold mb-4'>
+                <h3 className='text-xl text-gray-700 font-semibold mb-4'>
                     MERN Stack Developer
                 </h3>
                 <p className='mb-6'>A passionate MERN-stack web developer specializing in building responsive,

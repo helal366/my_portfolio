@@ -4,8 +4,8 @@ import Navbar from '../components/headerComponents/Navbar';
 
 const HomeLayout = () => {
     return (
-        <section>
-            <section className='sticky top-0 bg-white z-50'>
+        <section className='bg-gradient-to-br from-pink-500 to-blue-600 text-white'>
+            <section className='sticky top-0 z-50'>
                 <Navbar />
             </section>
             <Outlet />

@@ -11,7 +11,7 @@ const HomePage = () => {
         window.scrollTo(0,0)
     },[])
     return (
-        <section className=' min-h-screen pt-10 padding pb-52 bg-green-300/50'>
+        <section className=' min-h-screen pt-10 padding pb-52 '>
 
             <About />
             <section id='skills' className='mt-10'>
