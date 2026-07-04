@@ -5,6 +5,7 @@ import EducationalQualification from '../components/homePageComponents/Education
 import Projects from '../components/homePageComponents/Projects';
 import Contacts from '../components/homePageComponents/Contacts';
 import AboutMe from '../components/homePageComponents/AboutMe';
+import Footer from '../components/homePageComponents/Footer';
 
 const HomePage = () => {
     useEffect(()=>{
@@ -34,6 +35,10 @@ const HomePage = () => {
             <section id='contacts' className='mt-10'>
                <Contacts/>
             </section > 
+
+            <section className='mt-10'>
+                <Footer/>
+            </section>
         </section>
     );
 };
