@@ -8,6 +8,7 @@ const AboutMe = () => {
   return (
       <section data-aos="fade-up" data-aos-duration="2000" className="section">
         <div className="max-w-4xl mx-auto">
+          
           {/* Heading */}
           <div className="flex items-center gap-3 mb-6 justify-center">
             <FaUserTie className="w-6 h-6 text-purple-500" />
@@ -19,7 +20,7 @@ const AboutMe = () => {
           {/* Intro */}
           <p className="text-lg leading-relaxed mb-8 text-center">
             Hi, I’m <span className="font-semibold">Md Al Helal Sarker</span>, a
-            passionate <span className="text-green-900">MERN Stack Developer</span>.
+            passionate <span className="text-green-900">Full Stack Developer</span>.
             My programming journey started with curiosity about how websites work
             and quickly grew into a full-time passion for building modern,
             scalable, and user-friendly applications.
@@ -27,14 +28,14 @@ const AboutMe = () => {
 
           {/* Details */}
           <div className="grid md:grid-cols-2 gap-8 mb-10">
-            {/* Programming Journey */}
+          
             <div className="flex items-start gap-4">
               <FaLaptopCode className="w-8 h-8 text-blue-500 mt-1" />
               <div>
                 <h3 className="text-xl font-semibold">Programming Journey</h3>
                 <p>
-                  I’ve worked extensively with <strong>React, Node.js,
-                    Express.js, and MongoDB</strong>, building full-stack web
+                  I’ve worked extensively with <strong>React, NextJS, Redux, NodeJS,
+                    ExpressJS, Prisma, MongoDB, PostgreSQL</strong>, building full-stack web
                   applications. Each project strengthens my ability to solve real-world
                   problems with clean and efficient code.
                 </p>
