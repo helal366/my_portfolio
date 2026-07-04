@@ -66,3 +66,30 @@ body{
   100% { transform: rotate(360deg); }
 }
 
+
+
+/* project card tech marquee animation */
+
+/* marquee animation */
+.marquee {
+  animation: marquee 15s linear infinite;
+}
+
+/* smooth infinite scroll */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* pause on hover (premium UX) */
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+.educationCard{
+  @apply p-4 md:p-8 rounded-2xl bg-gradient-to-br from-pink-500/70 to-blue-600/70 text-center transition-all duration-200 hover:scale-[102%] cursor-pointer
+}
