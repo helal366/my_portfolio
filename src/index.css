@@ -35,7 +35,7 @@ body{
   @apply relative border border-purple-600 p-2 rounded-md
          flex items-center gap-2
          hover:bg-purple-400 hover:text-white 
-         hover:scale-105 transition-all duration-300 ;
+         hover:-translate-y-1 transition-all duration-300 ;
 }
 .navLinks{
   @apply bg-green-300/30 hover:bg-pink-500/60 text-black hover:text-white mr-2 font-semibold rounded-md border border-gray-500/50 transition-all duration-200
