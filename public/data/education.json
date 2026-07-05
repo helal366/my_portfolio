@@ -2,16 +2,19 @@
     {
         "degree":"Complete Web Development Course",
         "institution":"Programming Hero",
-        "courses":["Javascript", "React", "Node.js", "Express.js", "MongoDB", "Firebase", "Vercel", "Netlify"]
+        "courses":["Javascript", "React", "Node.js", "Express.js", "MongoDB", "Firebase", "Vercel", "Netlify"],
+        "status":"Completed"
     },
     {
         "degree":"Next Level AI-Driven Software Engineering Bootcamp",
         "institution":"Programming Hero",
-        "courses": ["TypeScript","Redux", "Reddis", "Next.js", "PostgreSQL",  "Prisma", "Doocker", "AWS"  ]
+        "courses": ["TypeScript","Redux", "Reddis", "Next.js", "PostgreSQL",  "Prisma", "Doocker", "AWS"  ],
+        "status":"Expected"
     },
     {
         "degree": "B.Sc. in Chemical Engineering",
         "institution": "Bangladesh University of Engineering and Technology (BUET)",
-        "courses": ["Fluid Mechanics", "Solid Mechanics", "Heat Transfer", "Mass Transfer", "Thermodynamics", "Unit Operations"]
+        "courses": ["Fluid Mechanics", "Solid Mechanics", "Heat Transfer", "Mass Transfer", "Thermodynamics", "Unit Operations"],
+        "status":"Completed"
     }
 ]
