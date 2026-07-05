@@ -114,12 +114,12 @@ export default AboutMe;
 //         <div className="max-w-4xl mx-auto">
           
 
-//           <div className="flex items-center gap-3 mb-6 justify-center">
-//             <FaUserTie className="w-6 h-6 text-purple-500" />
-//             <h2 className="text-2xl md:text-3xl font-bold text-black">
-//               About Me
-//             </h2>
-//           </div>
+          // <div className="flex items-center gap-3 mb-6 justify-center">
+          //   <FaUserTie className="w-6 h-6 text-purple-500" />
+          //   <h2 className="text-2xl md:text-3xl font-bold text-black">
+          //     About Me
+          //   </h2>
+          // </div>
 
 
 //           <p className="text-lg leading-relaxed mb-8 text-center">

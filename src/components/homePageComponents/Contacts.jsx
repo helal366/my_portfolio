@@ -22,7 +22,10 @@ const ContactMe = () => {
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold">Contact Me</h2>
+          <div className="flex items-center justify-center gap-3 mb-4">
+                <FaEnvelope className="w-8 h-8 text-purple-500" />
+                <h2 className="text-3xl font-semibold">Contact Me</h2>
+            </div>
           <p className="text-gray-200 mt-3">
             Have a project in mind or want to collaborate? Let’s talk.
           </p>
@@ -153,10 +156,10 @@ export default ContactMe;
 // };
 //     return (
 //         <section data-aos="fade-up" data-aos-duration="2000" className='section'>
-//             <div className="flex items-center gap-3 mb-4">
-//                 <FaEnvelope className="w-8 h-8 text-purple-500" />
-//                 <h2 className="text-3xl font-semibold">Contact Me</h2>
-//             </div>
+            // <div className="flex items-center gap-3 mb-4">
+            //     <FaEnvelope className="w-8 h-8 text-purple-500" />
+            //     <h2 className="text-3xl font-semibold">Contact Me</h2>
+            // </div>
 
 //             <div className="flex flex-col sm:flex-row sm:items-center gap-6 flex-wrap ">
 // <a
