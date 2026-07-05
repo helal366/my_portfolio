@@ -6,8 +6,6 @@ const Footer = () => {
     <footer data-aos="fade-up" data-aos-duration="2000" 
     class=" text-gray-300 bg-green-300/30 shadow-lg shadow-white rounded-md px-5 pt-30 pb-20">
   <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
-
-```
 {/* <!-- About --> */}
 <div>
   <h2 class="text-xl font-semibold text-white mb-3">About Me</h2>
@@ -41,7 +39,6 @@ const Footer = () => {
     <a href="https://x.com/Helal568768" target="_blank" class="hover:text-white transition">Twitter</a>
   </div>
 </div>
-```
 
   </div>
 

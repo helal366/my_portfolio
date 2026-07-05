@@ -61,7 +61,7 @@ const Skills = () => {
             <div className="mb-10 px-10">
                 <h2 className="flex items-center gap-3 text-2xl md:text-3xl font-semibold mb-4">
                     <FaCode className="text-purple-500" />
-                    Development Skills
+                    Professional Skills
                 </h2>
                 <p className="max-w-2xl">
                     As a MERN stack developer with strong frontend expertise, I build scalable,

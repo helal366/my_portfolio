@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FaGraduationCap } from "react-icons/fa";
 
 const Education = () => {
   const [educationData, setEducationData] = useState([]);
@@ -14,13 +15,15 @@ const Education = () => {
     <section className="section text-gray-200 py-16 px-4 md:px-10">
       {" "}
       <div className="max-w-6xl mx-auto">
-    
         {/* Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-white">
-            Education & Certifications
-          </h2>
-          <p className="text-gray-700 mt-3 text-sm md:text-base">
+          <div className="flex items-center justify-center gap-3 text-gray-200">
+            <FaGraduationCap className="w-8 h-8 text-purple-500" />
+            <h2 className="text-3xl font-semibold ">
+              Education & Certificates
+            </h2>{" "}
+          </div>
+          <p className="text-gray-200 mt-3 text-sm md:text-base">
             My academic journey and professional learning experience
           </p>
         </div>
