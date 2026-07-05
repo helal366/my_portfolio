@@ -19,15 +19,15 @@ const Projects = () => {
         </h2>
       </div>
 
-      <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project) => (
           <div
             key={project.id}
             className="card bg-green-50 shadow-sm text-gray-950"
           >
-            <figure className="transition-all hover:scale-115 hover:z-10">
+            <figure className="overflow-hidden transition-all hover:scale-105 hover:z-10">
               <img
-                className="h-52 w-full border border-gray-500/50 rounded-t-lg"
+                className="w-full h-52 object-cover object-top border border-gray-500/50 rounded-t-lg"
                 src={project.image}
                 alt="Shoes"
               />
