@@ -40,8 +40,11 @@ const ContactMe = () => {
 
             <div className="space-y-4">
               {/* email */}
+              
               <a
-                href="mailto:helalskr77@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=helalskr77@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="contactCss text-green-200"
               >
                 <MdEmail className="w-6 h-6" />
